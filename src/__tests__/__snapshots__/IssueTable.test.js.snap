@@ -1,0 +1,733 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IssueTable should render correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <IssueTable
+    issueList={
+        Array [
+            Object {
+              "assignee": null,
+              "assignees": Array [],
+              "author_association": "CONTRIBUTOR",
+              "body": "",
+              "closed_at": "2016-11-30T11:43:35Z",
+              "comments": 0,
+              "comments_url": "https://api.github.com/repos/cloudflare/cf-ui/issues/21/comments",
+              "created_at": "2016-11-28T17:09:46Z",
+              "events_url": "https://api.github.com/repos/cloudflare/cf-ui/issues/21/events",
+              "html_url": "https://github.com/cloudflare/cf-ui/issues/21",
+              "id": 192062081,
+              "labels": Array [
+                Object {
+                  "color": "84b6eb",
+                  "default": true,
+                  "id": 390162616,
+                  "name": "enhancement",
+                  "node_id": "MDU6TGFiZWwzOTAxNjI2MTY=",
+                  "url": "https://api.github.com/repos/cloudflare/cf-ui/labels/enhancement",
+                },
+              ],
+              "labels_url": "https://api.github.com/repos/cloudflare/cf-ui/issues/21/labels{/name}",
+              "locked": false,
+              "milestone": null,
+              "node_id": "MDU6SXNzdWUxOTIwNjIwODE=",
+              "number": 21,
+              "repository_url": "https://api.github.com/repos/cloudflare/cf-ui",
+              "state": "closed",
+              "title": "Upgrade eslint to 3+",
+              "updated_at": "2016-11-30T11:43:35Z",
+              "url": "https://api.github.com/repos/cloudflare/cf-ui/issues/21",
+              "user": Object {
+                "avatar_url": "https://avatars1.githubusercontent.com/u/160028?v=4",
+                "events_url": "https://api.github.com/users/wyuenho/events{/privacy}",
+                "followers_url": "https://api.github.com/users/wyuenho/followers",
+                "following_url": "https://api.github.com/users/wyuenho/following{/other_user}",
+                "gists_url": "https://api.github.com/users/wyuenho/gists{/gist_id}",
+                "gravatar_id": "",
+                "html_url": "https://github.com/wyuenho",
+                "id": 160028,
+                "login": "wyuenho",
+                "node_id": "MDQ6VXNlcjE2MDAyOA==",
+                "organizations_url": "https://api.github.com/users/wyuenho/orgs",
+                "received_events_url": "https://api.github.com/users/wyuenho/received_events",
+                "repos_url": "https://api.github.com/users/wyuenho/repos",
+                "site_admin": false,
+                "starred_url": "https://api.github.com/users/wyuenho/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/wyuenho/subscriptions",
+                "type": "User",
+                "url": "https://api.github.com/users/wyuenho",
+              },
+            },
+          ]
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <span />,
+        <span />,
+        <ul
+          className="issues"
+>
+          <li
+                    style={
+                              Object {
+                                        "border": "1px solid grey",
+                                        "padding": 5,
+                                      }
+                    }
+          >
+                    <Issue
+                              issue={
+                                        Object {
+                                                  "assignee": null,
+                                                  "assignees": Array [],
+                                                  "author_association": "CONTRIBUTOR",
+                                                  "body": "",
+                                                  "closed_at": "2016-11-30T11:43:35Z",
+                                                  "comments": 0,
+                                                  "comments_url": "https://api.github.com/repos/cloudflare/cf-ui/issues/21/comments",
+                                                  "created_at": "2016-11-28T17:09:46Z",
+                                                  "events_url": "https://api.github.com/repos/cloudflare/cf-ui/issues/21/events",
+                                                  "html_url": "https://github.com/cloudflare/cf-ui/issues/21",
+                                                  "id": 192062081,
+                                                  "labels": Array [
+                                                    Object {
+                                                      "color": "84b6eb",
+                                                      "default": true,
+                                                      "id": 390162616,
+                                                      "name": "enhancement",
+                                                      "node_id": "MDU6TGFiZWwzOTAxNjI2MTY=",
+                                                      "url": "https://api.github.com/repos/cloudflare/cf-ui/labels/enhancement",
+                                                    },
+                                                  ],
+                                                  "labels_url": "https://api.github.com/repos/cloudflare/cf-ui/issues/21/labels{/name}",
+                                                  "locked": false,
+                                                  "milestone": null,
+                                                  "node_id": "MDU6SXNzdWUxOTIwNjIwODE=",
+                                                  "number": 21,
+                                                  "repository_url": "https://api.github.com/repos/cloudflare/cf-ui",
+                                                  "state": "closed",
+                                                  "title": "Upgrade eslint to 3+",
+                                                  "updated_at": "2016-11-30T11:43:35Z",
+                                                  "url": "https://api.github.com/repos/cloudflare/cf-ui/issues/21",
+                                                  "user": Object {
+                                                    "avatar_url": "https://avatars1.githubusercontent.com/u/160028?v=4",
+                                                    "events_url": "https://api.github.com/users/wyuenho/events{/privacy}",
+                                                    "followers_url": "https://api.github.com/users/wyuenho/followers",
+                                                    "following_url": "https://api.github.com/users/wyuenho/following{/other_user}",
+                                                    "gists_url": "https://api.github.com/users/wyuenho/gists{/gist_id}",
+                                                    "gravatar_id": "",
+                                                    "html_url": "https://github.com/wyuenho",
+                                                    "id": 160028,
+                                                    "login": "wyuenho",
+                                                    "node_id": "MDQ6VXNlcjE2MDAyOA==",
+                                                    "organizations_url": "https://api.github.com/users/wyuenho/orgs",
+                                                    "received_events_url": "https://api.github.com/users/wyuenho/received_events",
+                                                    "repos_url": "https://api.github.com/users/wyuenho/repos",
+                                                    "site_admin": false,
+                                                    "starred_url": "https://api.github.com/users/wyuenho/starred{/owner}{/repo}",
+                                                    "subscriptions_url": "https://api.github.com/users/wyuenho/subscriptions",
+                                                    "type": "User",
+                                                    "url": "https://api.github.com/users/wyuenho",
+                                                  },
+                                                }
+                              }
+                              open={undefined}
+                    />
+          </li>
+</ul>,
+      ],
+      "className": "container col-md-8 col-md-offset-2",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "",
+        },
+        "ref": null,
+        "rendered": "",
+        "type": "span",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "",
+        },
+        "ref": null,
+        "rendered": "",
+        "type": "span",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <li
+              style={
+                            Object {
+                                          "border": "1px solid grey",
+                                          "padding": 5,
+                                        }
+              }
+>
+              <Issue
+                            issue={
+                                          Object {
+                                                        "assignee": null,
+                                                        "assignees": Array [],
+                                                        "author_association": "CONTRIBUTOR",
+                                                        "body": "",
+                                                        "closed_at": "2016-11-30T11:43:35Z",
+                                                        "comments": 0,
+                                                        "comments_url": "https://api.github.com/repos/cloudflare/cf-ui/issues/21/comments",
+                                                        "created_at": "2016-11-28T17:09:46Z",
+                                                        "events_url": "https://api.github.com/repos/cloudflare/cf-ui/issues/21/events",
+                                                        "html_url": "https://github.com/cloudflare/cf-ui/issues/21",
+                                                        "id": 192062081,
+                                                        "labels": Array [
+                                                          Object {
+                                                            "color": "84b6eb",
+                                                            "default": true,
+                                                            "id": 390162616,
+                                                            "name": "enhancement",
+                                                            "node_id": "MDU6TGFiZWwzOTAxNjI2MTY=",
+                                                            "url": "https://api.github.com/repos/cloudflare/cf-ui/labels/enhancement",
+                                                          },
+                                                        ],
+                                                        "labels_url": "https://api.github.com/repos/cloudflare/cf-ui/issues/21/labels{/name}",
+                                                        "locked": false,
+                                                        "milestone": null,
+                                                        "node_id": "MDU6SXNzdWUxOTIwNjIwODE=",
+                                                        "number": 21,
+                                                        "repository_url": "https://api.github.com/repos/cloudflare/cf-ui",
+                                                        "state": "closed",
+                                                        "title": "Upgrade eslint to 3+",
+                                                        "updated_at": "2016-11-30T11:43:35Z",
+                                                        "url": "https://api.github.com/repos/cloudflare/cf-ui/issues/21",
+                                                        "user": Object {
+                                                          "avatar_url": "https://avatars1.githubusercontent.com/u/160028?v=4",
+                                                          "events_url": "https://api.github.com/users/wyuenho/events{/privacy}",
+                                                          "followers_url": "https://api.github.com/users/wyuenho/followers",
+                                                          "following_url": "https://api.github.com/users/wyuenho/following{/other_user}",
+                                                          "gists_url": "https://api.github.com/users/wyuenho/gists{/gist_id}",
+                                                          "gravatar_id": "",
+                                                          "html_url": "https://github.com/wyuenho",
+                                                          "id": 160028,
+                                                          "login": "wyuenho",
+                                                          "node_id": "MDQ6VXNlcjE2MDAyOA==",
+                                                          "organizations_url": "https://api.github.com/users/wyuenho/orgs",
+                                                          "received_events_url": "https://api.github.com/users/wyuenho/received_events",
+                                                          "repos_url": "https://api.github.com/users/wyuenho/repos",
+                                                          "site_admin": false,
+                                                          "starred_url": "https://api.github.com/users/wyuenho/starred{/owner}{/repo}",
+                                                          "subscriptions_url": "https://api.github.com/users/wyuenho/subscriptions",
+                                                          "type": "User",
+                                                          "url": "https://api.github.com/users/wyuenho",
+                                                        },
+                                                      }
+                            }
+                            open={undefined}
+              />
+</li>,
+          ],
+          "className": "issues",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "21",
+            "nodeType": "host",
+            "props": Object {
+              "children": <Issue
+                issue={
+                                Object {
+                                                "assignee": null,
+                                                "assignees": Array [],
+                                                "author_association": "CONTRIBUTOR",
+                                                "body": "",
+                                                "closed_at": "2016-11-30T11:43:35Z",
+                                                "comments": 0,
+                                                "comments_url": "https://api.github.com/repos/cloudflare/cf-ui/issues/21/comments",
+                                                "created_at": "2016-11-28T17:09:46Z",
+                                                "events_url": "https://api.github.com/repos/cloudflare/cf-ui/issues/21/events",
+                                                "html_url": "https://github.com/cloudflare/cf-ui/issues/21",
+                                                "id": 192062081,
+                                                "labels": Array [
+                                                  Object {
+                                                    "color": "84b6eb",
+                                                    "default": true,
+                                                    "id": 390162616,
+                                                    "name": "enhancement",
+                                                    "node_id": "MDU6TGFiZWwzOTAxNjI2MTY=",
+                                                    "url": "https://api.github.com/repos/cloudflare/cf-ui/labels/enhancement",
+                                                  },
+                                                ],
+                                                "labels_url": "https://api.github.com/repos/cloudflare/cf-ui/issues/21/labels{/name}",
+                                                "locked": false,
+                                                "milestone": null,
+                                                "node_id": "MDU6SXNzdWUxOTIwNjIwODE=",
+                                                "number": 21,
+                                                "repository_url": "https://api.github.com/repos/cloudflare/cf-ui",
+                                                "state": "closed",
+                                                "title": "Upgrade eslint to 3+",
+                                                "updated_at": "2016-11-30T11:43:35Z",
+                                                "url": "https://api.github.com/repos/cloudflare/cf-ui/issues/21",
+                                                "user": Object {
+                                                  "avatar_url": "https://avatars1.githubusercontent.com/u/160028?v=4",
+                                                  "events_url": "https://api.github.com/users/wyuenho/events{/privacy}",
+                                                  "followers_url": "https://api.github.com/users/wyuenho/followers",
+                                                  "following_url": "https://api.github.com/users/wyuenho/following{/other_user}",
+                                                  "gists_url": "https://api.github.com/users/wyuenho/gists{/gist_id}",
+                                                  "gravatar_id": "",
+                                                  "html_url": "https://github.com/wyuenho",
+                                                  "id": 160028,
+                                                  "login": "wyuenho",
+                                                  "node_id": "MDQ6VXNlcjE2MDAyOA==",
+                                                  "organizations_url": "https://api.github.com/users/wyuenho/orgs",
+                                                  "received_events_url": "https://api.github.com/users/wyuenho/received_events",
+                                                  "repos_url": "https://api.github.com/users/wyuenho/repos",
+                                                  "site_admin": false,
+                                                  "starred_url": "https://api.github.com/users/wyuenho/starred{/owner}{/repo}",
+                                                  "subscriptions_url": "https://api.github.com/users/wyuenho/subscriptions",
+                                                  "type": "User",
+                                                  "url": "https://api.github.com/users/wyuenho",
+                                                },
+                                              }
+                }
+                open={undefined}
+/>,
+              "style": Object {
+                "border": "1px solid grey",
+                "padding": 5,
+              },
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "issue": Object {
+                  "assignee": null,
+                  "assignees": Array [],
+                  "author_association": "CONTRIBUTOR",
+                  "body": "",
+                  "closed_at": "2016-11-30T11:43:35Z",
+                  "comments": 0,
+                  "comments_url": "https://api.github.com/repos/cloudflare/cf-ui/issues/21/comments",
+                  "created_at": "2016-11-28T17:09:46Z",
+                  "events_url": "https://api.github.com/repos/cloudflare/cf-ui/issues/21/events",
+                  "html_url": "https://github.com/cloudflare/cf-ui/issues/21",
+                  "id": 192062081,
+                  "labels": Array [
+                    Object {
+                      "color": "84b6eb",
+                      "default": true,
+                      "id": 390162616,
+                      "name": "enhancement",
+                      "node_id": "MDU6TGFiZWwzOTAxNjI2MTY=",
+                      "url": "https://api.github.com/repos/cloudflare/cf-ui/labels/enhancement",
+                    },
+                  ],
+                  "labels_url": "https://api.github.com/repos/cloudflare/cf-ui/issues/21/labels{/name}",
+                  "locked": false,
+                  "milestone": null,
+                  "node_id": "MDU6SXNzdWUxOTIwNjIwODE=",
+                  "number": 21,
+                  "repository_url": "https://api.github.com/repos/cloudflare/cf-ui",
+                  "state": "closed",
+                  "title": "Upgrade eslint to 3+",
+                  "updated_at": "2016-11-30T11:43:35Z",
+                  "url": "https://api.github.com/repos/cloudflare/cf-ui/issues/21",
+                  "user": Object {
+                    "avatar_url": "https://avatars1.githubusercontent.com/u/160028?v=4",
+                    "events_url": "https://api.github.com/users/wyuenho/events{/privacy}",
+                    "followers_url": "https://api.github.com/users/wyuenho/followers",
+                    "following_url": "https://api.github.com/users/wyuenho/following{/other_user}",
+                    "gists_url": "https://api.github.com/users/wyuenho/gists{/gist_id}",
+                    "gravatar_id": "",
+                    "html_url": "https://github.com/wyuenho",
+                    "id": 160028,
+                    "login": "wyuenho",
+                    "node_id": "MDQ6VXNlcjE2MDAyOA==",
+                    "organizations_url": "https://api.github.com/users/wyuenho/orgs",
+                    "received_events_url": "https://api.github.com/users/wyuenho/received_events",
+                    "repos_url": "https://api.github.com/users/wyuenho/repos",
+                    "site_admin": false,
+                    "starred_url": "https://api.github.com/users/wyuenho/starred{/owner}{/repo}",
+                    "subscriptions_url": "https://api.github.com/users/wyuenho/subscriptions",
+                    "type": "User",
+                    "url": "https://api.github.com/users/wyuenho",
+                  },
+                },
+                "open": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "li",
+          },
+        ],
+        "type": "ul",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <span />,
+          <span />,
+          <ul
+            className="issues"
+>
+            <li
+                        style={
+                                    Object {
+                                                "border": "1px solid grey",
+                                                "padding": 5,
+                                              }
+                        }
+            >
+                        <Issue
+                                    issue={
+                                                Object {
+                                                            "assignee": null,
+                                                            "assignees": Array [],
+                                                            "author_association": "CONTRIBUTOR",
+                                                            "body": "",
+                                                            "closed_at": "2016-11-30T11:43:35Z",
+                                                            "comments": 0,
+                                                            "comments_url": "https://api.github.com/repos/cloudflare/cf-ui/issues/21/comments",
+                                                            "created_at": "2016-11-28T17:09:46Z",
+                                                            "events_url": "https://api.github.com/repos/cloudflare/cf-ui/issues/21/events",
+                                                            "html_url": "https://github.com/cloudflare/cf-ui/issues/21",
+                                                            "id": 192062081,
+                                                            "labels": Array [
+                                                              Object {
+                                                                "color": "84b6eb",
+                                                                "default": true,
+                                                                "id": 390162616,
+                                                                "name": "enhancement",
+                                                                "node_id": "MDU6TGFiZWwzOTAxNjI2MTY=",
+                                                                "url": "https://api.github.com/repos/cloudflare/cf-ui/labels/enhancement",
+                                                              },
+                                                            ],
+                                                            "labels_url": "https://api.github.com/repos/cloudflare/cf-ui/issues/21/labels{/name}",
+                                                            "locked": false,
+                                                            "milestone": null,
+                                                            "node_id": "MDU6SXNzdWUxOTIwNjIwODE=",
+                                                            "number": 21,
+                                                            "repository_url": "https://api.github.com/repos/cloudflare/cf-ui",
+                                                            "state": "closed",
+                                                            "title": "Upgrade eslint to 3+",
+                                                            "updated_at": "2016-11-30T11:43:35Z",
+                                                            "url": "https://api.github.com/repos/cloudflare/cf-ui/issues/21",
+                                                            "user": Object {
+                                                              "avatar_url": "https://avatars1.githubusercontent.com/u/160028?v=4",
+                                                              "events_url": "https://api.github.com/users/wyuenho/events{/privacy}",
+                                                              "followers_url": "https://api.github.com/users/wyuenho/followers",
+                                                              "following_url": "https://api.github.com/users/wyuenho/following{/other_user}",
+                                                              "gists_url": "https://api.github.com/users/wyuenho/gists{/gist_id}",
+                                                              "gravatar_id": "",
+                                                              "html_url": "https://github.com/wyuenho",
+                                                              "id": 160028,
+                                                              "login": "wyuenho",
+                                                              "node_id": "MDQ6VXNlcjE2MDAyOA==",
+                                                              "organizations_url": "https://api.github.com/users/wyuenho/orgs",
+                                                              "received_events_url": "https://api.github.com/users/wyuenho/received_events",
+                                                              "repos_url": "https://api.github.com/users/wyuenho/repos",
+                                                              "site_admin": false,
+                                                              "starred_url": "https://api.github.com/users/wyuenho/starred{/owner}{/repo}",
+                                                              "subscriptions_url": "https://api.github.com/users/wyuenho/subscriptions",
+                                                              "type": "User",
+                                                              "url": "https://api.github.com/users/wyuenho",
+                                                            },
+                                                          }
+                                    }
+                                    open={undefined}
+                        />
+            </li>
+</ul>,
+        ],
+        "className": "container col-md-8 col-md-offset-2",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "",
+          },
+          "ref": null,
+          "rendered": "",
+          "type": "span",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "",
+          },
+          "ref": null,
+          "rendered": "",
+          "type": "span",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <li
+                style={
+                                Object {
+                                                "border": "1px solid grey",
+                                                "padding": 5,
+                                              }
+                }
+>
+                <Issue
+                                issue={
+                                                Object {
+                                                                "assignee": null,
+                                                                "assignees": Array [],
+                                                                "author_association": "CONTRIBUTOR",
+                                                                "body": "",
+                                                                "closed_at": "2016-11-30T11:43:35Z",
+                                                                "comments": 0,
+                                                                "comments_url": "https://api.github.com/repos/cloudflare/cf-ui/issues/21/comments",
+                                                                "created_at": "2016-11-28T17:09:46Z",
+                                                                "events_url": "https://api.github.com/repos/cloudflare/cf-ui/issues/21/events",
+                                                                "html_url": "https://github.com/cloudflare/cf-ui/issues/21",
+                                                                "id": 192062081,
+                                                                "labels": Array [
+                                                                  Object {
+                                                                    "color": "84b6eb",
+                                                                    "default": true,
+                                                                    "id": 390162616,
+                                                                    "name": "enhancement",
+                                                                    "node_id": "MDU6TGFiZWwzOTAxNjI2MTY=",
+                                                                    "url": "https://api.github.com/repos/cloudflare/cf-ui/labels/enhancement",
+                                                                  },
+                                                                ],
+                                                                "labels_url": "https://api.github.com/repos/cloudflare/cf-ui/issues/21/labels{/name}",
+                                                                "locked": false,
+                                                                "milestone": null,
+                                                                "node_id": "MDU6SXNzdWUxOTIwNjIwODE=",
+                                                                "number": 21,
+                                                                "repository_url": "https://api.github.com/repos/cloudflare/cf-ui",
+                                                                "state": "closed",
+                                                                "title": "Upgrade eslint to 3+",
+                                                                "updated_at": "2016-11-30T11:43:35Z",
+                                                                "url": "https://api.github.com/repos/cloudflare/cf-ui/issues/21",
+                                                                "user": Object {
+                                                                  "avatar_url": "https://avatars1.githubusercontent.com/u/160028?v=4",
+                                                                  "events_url": "https://api.github.com/users/wyuenho/events{/privacy}",
+                                                                  "followers_url": "https://api.github.com/users/wyuenho/followers",
+                                                                  "following_url": "https://api.github.com/users/wyuenho/following{/other_user}",
+                                                                  "gists_url": "https://api.github.com/users/wyuenho/gists{/gist_id}",
+                                                                  "gravatar_id": "",
+                                                                  "html_url": "https://github.com/wyuenho",
+                                                                  "id": 160028,
+                                                                  "login": "wyuenho",
+                                                                  "node_id": "MDQ6VXNlcjE2MDAyOA==",
+                                                                  "organizations_url": "https://api.github.com/users/wyuenho/orgs",
+                                                                  "received_events_url": "https://api.github.com/users/wyuenho/received_events",
+                                                                  "repos_url": "https://api.github.com/users/wyuenho/repos",
+                                                                  "site_admin": false,
+                                                                  "starred_url": "https://api.github.com/users/wyuenho/starred{/owner}{/repo}",
+                                                                  "subscriptions_url": "https://api.github.com/users/wyuenho/subscriptions",
+                                                                  "type": "User",
+                                                                  "url": "https://api.github.com/users/wyuenho",
+                                                                },
+                                                              }
+                                }
+                                open={undefined}
+                />
+</li>,
+            ],
+            "className": "issues",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "21",
+              "nodeType": "host",
+              "props": Object {
+                "children": <Issue
+                  issue={
+                                    Object {
+                                                      "assignee": null,
+                                                      "assignees": Array [],
+                                                      "author_association": "CONTRIBUTOR",
+                                                      "body": "",
+                                                      "closed_at": "2016-11-30T11:43:35Z",
+                                                      "comments": 0,
+                                                      "comments_url": "https://api.github.com/repos/cloudflare/cf-ui/issues/21/comments",
+                                                      "created_at": "2016-11-28T17:09:46Z",
+                                                      "events_url": "https://api.github.com/repos/cloudflare/cf-ui/issues/21/events",
+                                                      "html_url": "https://github.com/cloudflare/cf-ui/issues/21",
+                                                      "id": 192062081,
+                                                      "labels": Array [
+                                                        Object {
+                                                          "color": "84b6eb",
+                                                          "default": true,
+                                                          "id": 390162616,
+                                                          "name": "enhancement",
+                                                          "node_id": "MDU6TGFiZWwzOTAxNjI2MTY=",
+                                                          "url": "https://api.github.com/repos/cloudflare/cf-ui/labels/enhancement",
+                                                        },
+                                                      ],
+                                                      "labels_url": "https://api.github.com/repos/cloudflare/cf-ui/issues/21/labels{/name}",
+                                                      "locked": false,
+                                                      "milestone": null,
+                                                      "node_id": "MDU6SXNzdWUxOTIwNjIwODE=",
+                                                      "number": 21,
+                                                      "repository_url": "https://api.github.com/repos/cloudflare/cf-ui",
+                                                      "state": "closed",
+                                                      "title": "Upgrade eslint to 3+",
+                                                      "updated_at": "2016-11-30T11:43:35Z",
+                                                      "url": "https://api.github.com/repos/cloudflare/cf-ui/issues/21",
+                                                      "user": Object {
+                                                        "avatar_url": "https://avatars1.githubusercontent.com/u/160028?v=4",
+                                                        "events_url": "https://api.github.com/users/wyuenho/events{/privacy}",
+                                                        "followers_url": "https://api.github.com/users/wyuenho/followers",
+                                                        "following_url": "https://api.github.com/users/wyuenho/following{/other_user}",
+                                                        "gists_url": "https://api.github.com/users/wyuenho/gists{/gist_id}",
+                                                        "gravatar_id": "",
+                                                        "html_url": "https://github.com/wyuenho",
+                                                        "id": 160028,
+                                                        "login": "wyuenho",
+                                                        "node_id": "MDQ6VXNlcjE2MDAyOA==",
+                                                        "organizations_url": "https://api.github.com/users/wyuenho/orgs",
+                                                        "received_events_url": "https://api.github.com/users/wyuenho/received_events",
+                                                        "repos_url": "https://api.github.com/users/wyuenho/repos",
+                                                        "site_admin": false,
+                                                        "starred_url": "https://api.github.com/users/wyuenho/starred{/owner}{/repo}",
+                                                        "subscriptions_url": "https://api.github.com/users/wyuenho/subscriptions",
+                                                        "type": "User",
+                                                        "url": "https://api.github.com/users/wyuenho",
+                                                      },
+                                                    }
+                  }
+                  open={undefined}
+/>,
+                "style": Object {
+                  "border": "1px solid grey",
+                  "padding": 5,
+                },
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "issue": Object {
+                    "assignee": null,
+                    "assignees": Array [],
+                    "author_association": "CONTRIBUTOR",
+                    "body": "",
+                    "closed_at": "2016-11-30T11:43:35Z",
+                    "comments": 0,
+                    "comments_url": "https://api.github.com/repos/cloudflare/cf-ui/issues/21/comments",
+                    "created_at": "2016-11-28T17:09:46Z",
+                    "events_url": "https://api.github.com/repos/cloudflare/cf-ui/issues/21/events",
+                    "html_url": "https://github.com/cloudflare/cf-ui/issues/21",
+                    "id": 192062081,
+                    "labels": Array [
+                      Object {
+                        "color": "84b6eb",
+                        "default": true,
+                        "id": 390162616,
+                        "name": "enhancement",
+                        "node_id": "MDU6TGFiZWwzOTAxNjI2MTY=",
+                        "url": "https://api.github.com/repos/cloudflare/cf-ui/labels/enhancement",
+                      },
+                    ],
+                    "labels_url": "https://api.github.com/repos/cloudflare/cf-ui/issues/21/labels{/name}",
+                    "locked": false,
+                    "milestone": null,
+                    "node_id": "MDU6SXNzdWUxOTIwNjIwODE=",
+                    "number": 21,
+                    "repository_url": "https://api.github.com/repos/cloudflare/cf-ui",
+                    "state": "closed",
+                    "title": "Upgrade eslint to 3+",
+                    "updated_at": "2016-11-30T11:43:35Z",
+                    "url": "https://api.github.com/repos/cloudflare/cf-ui/issues/21",
+                    "user": Object {
+                      "avatar_url": "https://avatars1.githubusercontent.com/u/160028?v=4",
+                      "events_url": "https://api.github.com/users/wyuenho/events{/privacy}",
+                      "followers_url": "https://api.github.com/users/wyuenho/followers",
+                      "following_url": "https://api.github.com/users/wyuenho/following{/other_user}",
+                      "gists_url": "https://api.github.com/users/wyuenho/gists{/gist_id}",
+                      "gravatar_id": "",
+                      "html_url": "https://github.com/wyuenho",
+                      "id": 160028,
+                      "login": "wyuenho",
+                      "node_id": "MDQ6VXNlcjE2MDAyOA==",
+                      "organizations_url": "https://api.github.com/users/wyuenho/orgs",
+                      "received_events_url": "https://api.github.com/users/wyuenho/received_events",
+                      "repos_url": "https://api.github.com/users/wyuenho/repos",
+                      "site_admin": false,
+                      "starred_url": "https://api.github.com/users/wyuenho/starred{/owner}{/repo}",
+                      "subscriptions_url": "https://api.github.com/users/wyuenho/subscriptions",
+                      "type": "User",
+                      "url": "https://api.github.com/users/wyuenho",
+                    },
+                  },
+                  "open": undefined,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "li",
+            },
+          ],
+          "type": "ul",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

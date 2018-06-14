@@ -1,0 +1,23 @@
+.tabbar-me {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* OR subtle border */
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+.tabbar-me li {
+    padding: 10px;
+}
+.tabbar-me .active {
+    border-bottom: 3px solid #cc181e;
+}
+
+.tabbar-me li:hover {
+    border-bottom: 3px solid #cc181e;
+    cursor: pointer;
+}

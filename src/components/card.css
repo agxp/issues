@@ -1,0 +1,29 @@
+
+.card {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.card img:hover {
+    cursor: pointer;
+}
+
+.card h2 {
+    font-size: 13px;
+    font-weight: bold;
+    margin: 10px;
+    color: RGBA(22, 122, 198, 1.00);
+}
+
+.card h2:hover {
+    cursor: pointer;
+}
+
+.card p {
+    font-size: 11px;
+    color: RGBA(130, 130, 130, 1.00);
+}
+
+.card p:hover {
+    cursor: pointer;
+}

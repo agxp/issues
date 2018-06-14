@@ -1,0 +1,61 @@
+
+.navbar-me {
+    padding: 5px;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0px;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    left: 0;
+    z-index: 9999;
+    width:100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); /* OR subtle border */
+}
+
+.navbar-me img {
+    width: 100px;
+    height: 40px;
+}
+
+.navbar-me .hamburger {
+    margin: 0 20px;
+}
+
+.navbar-me-left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1 1 auto;
+    font-size: 20px;
+}
+
+.navbar-me-left form {
+    flex: 0 0 600px;
+    margin: 0 40px;
+}
+
+.navbar-me-left .searchbar{
+    width: 500px;
+}
+
+.navbar-me-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size:20px;
+}
+
+.navbar-me-right a{
+    margin: 0 10px;
+}
+
+.navbar-me i {
+    color: RGBA(182, 182, 182, 1.00);
+    font-size:15px;
+}
+
+.navbar-me i:hover{
+    color: RGBA(128, 128, 128, 1.00);
+}
