@@ -24,7 +24,7 @@ export default class IssueTable extends Component {
         }
     }
 
-    sortIssues(issueList, sort) {
+    static sortIssues(issueList, sort) {
         switch (sort) {
             case "Newest":
                 issueList.sort(function(a,b){
