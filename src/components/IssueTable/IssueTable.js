@@ -76,6 +76,17 @@ export default class IssueTable extends Component {
                 if (v.pull_request) {
                     return null
                 }
+                 if (author) {
+                     if (v.user.login !== author)
+                        return null;
+                    }
+                if (label) {
+                    if (v.labels == null) return null;
+                    if (v.labels.filter(a => a.name === label).length === 0) {
+                        return null;
+                    }
+                }
+                
                 if (this.props.open) {
                     if (v.state === "closed") {
                         closed++;
@@ -84,17 +95,6 @@ export default class IssueTable extends Component {
                 } else {
                     if (v.state === "open") {
                         open++;
-                        return null
-                    }
-                }
-
-                if (author) {
-                    if (v.user.login !== author)
-                        return null
-                }
-                if (label) {
-                    if (v.labels == null) return null;
-                    if (v.labels.filter(a => a.name === label).length === 0) {
                         return null
                     }
                 }
