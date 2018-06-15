@@ -67,7 +67,7 @@ export default class IssueTable extends Component {
 
         if (issueList != null) {
             if (sort != null) {
-                issueList = this.sortIssues(issueList, sort)
+                issueList = IssueTable.sortIssues(issueList, sort)
             }
             let open = 0;
             let closed = 0;
