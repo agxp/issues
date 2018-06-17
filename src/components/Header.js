@@ -20,7 +20,7 @@ export default class Header extends Component {
                     authors.add(a.user.login)
                 }
             });
-            let allAuthors = Array.from(authors);
+            let allAuthors = Array.from(authors).sort();
 
 
             console.log(allAuthors);
